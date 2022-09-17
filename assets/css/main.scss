@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../font/inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url(../font/inter/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(../font/inter/Inter-Bold.ttf);
+}
+
+
+html * {
+    font-family: "Inter-Regular" !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2C2E35;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background: url("../img/main/background.svg") no-repeat;
+    height: 100%;
+
+    header {
+        display: block;
+        position: relative;
+        z-index: 1056;
+
+        nav {
+            height: 120px;
+            background: white;
+            padding: 0 150px 0 150px;
+            box-shadow: 0px 20px 40px rgba(226, 226, 226, 0.5);
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                height: 120px;
+                width: 100%;
+                display: block !important;
+
+                li.menu {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    height: 120px;
+                    display: inline;
+
+                    a {
+                        margin: 0;
+                        padding: 50 22px 0 22px;
+                        height: 120px;
+                        text-align: center;
+                        float: left;
+                        font-family: "Inter-Medium" !important;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        text-align: center;
+                        color: #2C2E35;
+                        background-color: #FFFFFF;
+                        transition: background-color 0.2s, color 0.2s;
+                    }
+
+                    a:hover,
+                    a.active {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        background-color: #E3721F;
+                        color: #FFFFFF;
+                    }
+
+
+                }
+
+                li.logo {
+                    padding-top: 28px;
+                    margin-right: 100px;
+                    float: left;
+                }
+
+                li.icon {
+                    padding-top: 0;
+                    margin-top: 19px;
+                    margin-left: 20px;
+                    float: right;
+
+                    img {
+                        width: 140px;
+                        height: 79px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    section {
+        position: relative;
+        display: block;
+    }
+
+    footer {
+        position: absolute;
+        padding-bottom: 13px;
+        bottom: 0;
+        width: 100%;
+
+        img {
+            width: 13px;
+            margin-top: -3px
+        }
+
+        .copyright {
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+
+
+        }
+    }
+}
+
+#pdf {
+    width: 100%;
+    height: 100%;
+    padding: 0 210px 0 210px;
+    position: relative;
+
+    #pdf-viewer {
+        width: 100%;
+        background: #FFFFFF;
+        height: 100%;
+        padding: 130px 0 0 0;
+        overflow-y: hidden;
+        z-index: 99999;
+
+        iframe {
+            width: 100%;
+            height: 905px;
+        }
+
+        #navigation-controls {
+            margin-bottom: 5px;
+        }
+
+        #canvas-container {
+            height: 873px;
+            overflow-y: scroll;
+        }
+
+        #canvas-container::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        #canvas-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        #canvas-container::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        #canvas-container::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        #canvas-container {
+            background: #333;
+            text-align: center;
+            border: solid 3px;
+        }
+
+    }
+}
+
+.container {
+    max-width: 1646px !important;
+}
+
+.modal {
+    background: rgba(245, 245, 245, 0.95);
+    padding: 0;
+    border-color: red;
+}
+
+.modal-body {
+    padding: 0;
+
+    video {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 !important;
+    }
+}
+
+.modal-content {
+    border: none;
+    box-shadow: 0px 20px 40px rgba(44, 46, 53, 0.1);
+}
+
+.fade {
+    background: rgba(245, 245, 245, 0.95);
+}
+
+.btn-close-modal {
+    position: absolute;
+    right: -50px;
+    top: -40px;
+    cursor: pointer;
+    z-index: 1999;
+}
+
+.pdf-blocker-control {
+    position: absolute;
+    right: 230px;
+    top: 130px;
+    background-color: #323639;
+    width: 150px;
+    height: 55px;
+    z-index: 3000;
+}
+
+.breadcrumb {
+    background: #C60819;
+    padding: 20px 38px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    li {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 18px;
+        color: white;
+
+        a {
+            color: white;
+            // font-weight: 700;
+            font-size: 24px;
+            line-height: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+}
+
+/*# sourceMappingURL=main.css.map */

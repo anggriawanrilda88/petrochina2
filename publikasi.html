@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <link href="assets/css/bootstrap5.1/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/swipper/swipper.css" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/publication.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li class="logo"><a href="index.html"><img src="assets/img/main/logo.png" /></a></li>
+                    <li class="menu"><a href="index.html">Beranda</a></li>
+                    <li class="menu"><a href="profile.html">Profil</a></li>
+                    <li class="menu"><a href="csr.html">Program CSR</a></li>
+                    <li class="menu"><a href="hse.html">HSSE</a></li>
+                    <li class="menu"><a href="publikasi.html" class="active">Publikasi</a></li>
+                    <li class="menu"><a href="games.html">Games</a></li>
+                    <li class="menu"><a href="galeri.html">Galeri</a></li>
+                    <li class="icon"><a><img src="assets/img/main/icon-ig.svg" /></a>
+                    </li>
+                    <li class="icon"><a><img src="assets/img/main/icon-tw.svg" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="publication">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="publication-box"
+                                style="background-image: url(./assets/img/publication/publication-1.png);background-size: cover;">
+                                <div class="content">
+                                    <a data-bs-toggle="modal" data-bs-target="#pdf-1-modal" class="read-more">
+                                        Baca lebih lanjut
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="publication-box"
+                                style="background-image: url(./assets/img/publication/publication-3.png);background-size: cover;">
+                                <div class="content">
+                                    <a data-bs-toggle="modal" data-bs-target="#pdf-3-modal" class="read-more">
+                                        Baca lebih lanjut
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="publication-box"
+                                style="background-image: url(./assets/img/publication/publication-2.png);background-size: cover;">
+                                <div class="content">
+                                    <a data-bs-toggle="modal" data-bs-target="#pdf-2-modal" class="read-more">
+                                        Baca lebih lanjut
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col copyright"><img src="assets/img/main/copyright.svg"> 2022 Petrochina. All Rights Reserved.</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="pdf-1-modal" tabindex="-1" aria-labelledby="video-1-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    <div class="pdf-blocker-control"></div>
+                    <div id="pdf">
+                        <div id="pdf-viewer">
+                            <iframe src="assets/file/publication/7.d ISBN SDA BETARA 2021.pdf"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pdf-2-modal" tabindex="-1" aria-labelledby="video-1-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    <div class="pdf-blocker-control"></div>
+                    <div id="pdf">
+                        <div id="pdf-viewer">
+                            <iframe src="assets/file/publication/8.a Manajement Pengelolaan Sampah _ Lapangan Betara 2021.pdf"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pdf-3-modal" tabindex="-1" aria-labelledby="video-1-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    <div class="pdf-blocker-control"></div>
+                    <div id="pdf">
+                        <div id="pdf-viewer">
+                            <iframe
+                                src="assets/file/publication/7.d ISBN SDA GERAGAI 2021.pdf"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/jquery3.6.1.js"></script>
+<script async src="assets/js/bootstrap5.1/bootstrap.bundle.min.js"></script><!-- Swiper JS -->
+
+</html>

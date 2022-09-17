@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(../font/inter/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url(../font/inter/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(../font/inter/Inter-Bold.ttf);
+}
+
+html * {
+  font-family: "Inter-Regular" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2C2E35;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: url("../img/main/background.svg") no-repeat;
+  height: 100%;
+}
+
+main header {
+  display: block;
+  position: relative;
+  z-index: 1056;
+}
+
+main header nav {
+  height: 120px;
+  background: white;
+  padding: 0 150px 0 150px;
+  -webkit-box-shadow: 0px 20px 40px rgba(226, 226, 226, 0.5);
+          box-shadow: 0px 20px 40px rgba(226, 226, 226, 0.5);
+}
+
+main header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  display: block !important;
+}
+
+main header nav ul li.menu {
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 120px;
+  display: inline;
+}
+
+main header nav ul li.menu a {
+  margin: 0;
+  padding: 50 22px 0 22px;
+  height: 120px;
+  text-align: center;
+  float: left;
+  font-family: "Inter-Medium" !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2C2E35;
+  background-color: #FFFFFF;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+main header nav ul li.menu a:hover,
+main header nav ul li.menu a.active {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #E3721F;
+  color: #FFFFFF;
+}
+
+main header nav ul li.logo {
+  padding-top: 28px;
+  margin-right: 100px;
+  float: left;
+}
+
+main header nav ul li.icon {
+  padding-top: 0;
+  margin-top: 19px;
+  margin-left: 20px;
+  float: right;
+}
+
+main header nav ul li.icon img {
+  width: 140px;
+  height: 79px;
+}
+
+main section {
+  position: relative;
+  display: block;
+}
+
+main footer {
+  position: absolute;
+  padding-bottom: 13px;
+  bottom: 0;
+  width: 100%;
+}
+
+main footer img {
+  width: 13px;
+  margin-top: -3px;
+}
+
+main footer .copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#pdf {
+  width: 100%;
+  height: 100%;
+  padding: 0 210px 0 210px;
+  position: relative;
+}
+
+#pdf #pdf-viewer {
+  width: 100%;
+  background: #FFFFFF;
+  height: 100%;
+  padding: 130px 0 0 0;
+  overflow-y: hidden;
+  z-index: 99999;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+#pdf #pdf-viewer iframe {
+  width: 100%;
+  height: 905px;
+}
+
+#pdf #pdf-viewer #navigation-controls {
+  margin-bottom: 5px;
+}
+
+#pdf #pdf-viewer #canvas-container {
+  height: 873px;
+  overflow-y: scroll;
+}
+
+#pdf #pdf-viewer #canvas-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+#pdf #pdf-viewer #canvas-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#pdf #pdf-viewer #canvas-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#pdf #pdf-viewer #canvas-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#pdf #pdf-viewer #canvas-container {
+  background: #333;
+  text-align: center;
+  border: solid 3px;
+}
+
+.container {
+  max-width: 1646px !important;
+}
+
+.modal {
+  background: rgba(245, 245, 245, 0.95);
+  padding: 0;
+  border-color: red;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-body video {
+  width: 100%;
+}
+
+.modal-body .container {
+  padding: 0 !important;
+}
+
+.modal-content {
+  border: none;
+  -webkit-box-shadow: 0px 20px 40px rgba(44, 46, 53, 0.1);
+          box-shadow: 0px 20px 40px rgba(44, 46, 53, 0.1);
+}
+
+.fade {
+  background: rgba(245, 245, 245, 0.95);
+}
+
+.btn-close-modal {
+  position: absolute;
+  right: -50px;
+  top: -40px;
+  cursor: pointer;
+  z-index: 1999;
+}
+
+.pdf-blocker-control {
+  position: absolute;
+  right: 230px;
+  top: 130px;
+  background-color: #323639;
+  width: 150px;
+  height: 55px;
+  z-index: 3000;
+}
+
+.breadcrumb {
+  background: #C60819;
+  padding: 20px 38px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.breadcrumb li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  color: white;
+}
+
+.breadcrumb li a {
+  color: white;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */
