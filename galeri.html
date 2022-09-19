@@ -4,7 +4,7 @@
     <link href="assets/css/bootstrap5.1/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/swipper/swipper.css" />
     <link href="assets/css/main.css" rel="stylesheet" />
-    <link href="assets/css/gallery.css" rel="stylesheet" />
+    <link href="assets/css/csr.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -14,13 +14,13 @@
                 <ul>
                     <li class="logo"><a href="index.html"><img src="assets/img/main/logo.png" /></a></li>
                     <li class="menu"><a href="index.html">Home</a></li>
-                    <li class="menu"><a href="profile.html">Profil</a></li>
-                    <li class="menu"><a href="csr.html">CSR Program</a></li>
+                    <li class="menu"><a href="profile.html">Profile</a></li>
+                    <li class="menu"><a href="csr.html">CSR Programs</a></li>
                     <li class="menu"><a href="hse.html">HSSE</a></li>
                     <li class="menu"><a href="go-deeper.html">Go Deeper</a></li>
                     <li class="menu"><a href="glpo.html">GLPO</a></li>
                     <li class="menu"><a href="games.html">Games</a></li>
-                    <li class="menu"><a href="galeri.html" class="active">Video Galeri</a></li>
+                    <li class="menu"><a href="galeri.html" class="active">Video Gallery</a></li>
                     <li class="icon"><a><img src="assets/img/main/icon-ig.svg" /></a>
                     </li>
                     <li class="icon"><a><img src="assets/img/main/icon-tw.svg" /></a>
@@ -32,90 +32,153 @@
             <div id="gallery">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="gallery-box">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri1.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-1"
-                                                data-bs-toggle="modal" data-bs-target="#video-1-modal" />
-                                            <div class="title">
-                                                Video Company Profile Petrochina
+                        <div class="col">
+                            <div class="swipper-content">
+                                <div class="swiper myCsrSlide">
+                                    <div class="swiper-wrapper">
+                                        <!-- <div class="col-3">
+                                            <div class="box-video">
+                                                <img class="main-img" src="assets/img/gallery/galleri1.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-1"
+                                                    data-bs-toggle="modal" data-bs-target="#video-1-modal" />
+                                                <div class="title">
+                                                    Video Company Profile Petrochina
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="box-video">
+                                                <img class="main-img" src="assets/img/gallery/galleri2.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-2"
+                                                    data-bs-toggle="modal" data-bs-target="#video-2-modal" />
+                                                <div class="title">
+                                                    Video Taman Ekologi Gerbang Lestari
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="box-video">
+                                                <img class="main-img" src="assets/img/gallery/galleri3.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-3"
+                                                    data-bs-toggle="modal" data-bs-target="#video-3-modal" />
+                                                <div class="title">
+                                                    Video Taman Ekologi Gerbang Lestari
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-1-modal">
+                                                <img class="main-img" src="assets/img/gallery/galleri1.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-7" data-bs-toggle="modal"
+                                                    data-bs-target="#video-7-modal" />
+                                                <div class="title">
+                                                    Video Company Profile Petrochina
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-1-modal">
+                                                <img class="main-img" src="assets/img/gallery/galleri2.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-8" data-bs-toggle="modal"
+                                                    data-bs-target="#video-8-modal" />
+                                                <div class="title">
+                                                    Video Taman Ekologi Gerbang Lestari
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-1-modal">
+                                                <img class="main-img" src="assets/img/gallery/galleri3.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-9" data-bs-toggle="modal"
+                                                    data-bs-target="#video-9-modal" />
+                                                <div class="title">
+                                                    Video Taman Ekologi Gerbang Lestari
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-1-modal">
+                                                <img class="main-img" src="assets/img/csr/product1.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-1" data-bs-toggle="modal"
+                                                    data-bs-target="#video-1-modal" />
+                                                <div class="title">
+                                                    Taman Ekologi Kompos
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-2-modal">
+                                                <img class="main-img" src="assets/img/csr/product2.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-2" data-bs-toggle="modal"
+                                                    data-bs-target="#video-2-modal" />
+                                                <div class="title">
+                                                    Taman Ekologi Bio Enzyme
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-3-modal">
+                                                <img class="main-img" src="assets/img/csr/product3.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-3" data-bs-toggle="modal"
+                                                    data-bs-target="#video-3-modal" />
+                                                <div class="title">
+                                                    Bio Urin
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-3-modal">
+                                                <img class="main-img" src="assets/img/csr/product4.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-4" data-bs-toggle="modal"
+                                                    data-bs-target="#video-4-modal" />
+                                                <div class="title">
+                                                    Profil Ekowisata Sukorejo - Kampung Kopi Liberika
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-3-modal">
+                                                <img class="main-img" src="assets/img/csr/product5.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-5" data-bs-toggle="modal"
+                                                    data-bs-target="#video-5-modal" />
+                                                <div class="title">
+                                                    Teaser CSR PetroChina
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="csr-box-slide" data-bs-toggle="modal"
+                                                data-bs-target="#article-3-modal">
+                                                <img class="main-img" src="assets/img/csr/product6.png" />
+                                                <img class="play-video" src="assets/img/main/icon-play-big.svg"
+                                                    id="video-6" data-bs-toggle="modal"
+                                                    data-bs-target="#video-6-modal" />
+                                                <div class="title">
+                                                    Industri Pengrajin Batik - Batik Idola
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri2.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-2"
-                                                data-bs-toggle="modal" data-bs-target="#video-2-modal" />
-                                            <div class="title">
-                                                Video Taman Ekologi Gerbang Lestari
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri3.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-3"
-                                                data-bs-toggle="modal" data-bs-target="#video-3-modal" />
-                                            <div class="title">
-                                                Video Taman Ekologi Gerbang Lestari
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri4.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-4"
-                                                data-bs-toggle="modal" data-bs-target="#video-4-modal" />
-                                            <div class="title">
-                                                Video Compost Ecological Park
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri5.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-5"
-                                                data-bs-toggle="modal" data-bs-target="#video-5-modal" />
-                                            <div class="title">
-                                                Video Bio Enzyme Ecological Park
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri6.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-6"
-                                                data-bs-toggle="modal" data-bs-target="#video-6-modal" />
-                                            <div class="title">
-                                                Video Urine Bio
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri7.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-7"
-                                                data-bs-toggle="modal" data-bs-target="#video-7-modal" />
-                                            <div class="title">
-                                                Title Video
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box-video">
-                                            <img class="main-img" src="assets/img/gallery/galleri8.png" />
-                                            <img class="play-video" src="assets/img/main/icon-play-big.svg" id="video-8"
-                                                data-bs-toggle="modal" data-bs-target="#video-8-modal" />
-                                            <div class="title">
-                                                Title Video
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                    <!-- <div class="swiper-pagination"></div> -->
                                 </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
@@ -140,7 +203,7 @@
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-1" width="400" controls>
-                        <source src="assets/videos/profile/Video Profile PetroChina.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/TamanEKOLOGI_Kompos_FIX.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -148,14 +211,14 @@
         </div>
     </div>
 
-    <div class="modal fade" id="video-2-modal" tabindex="-2" aria-labelledby="video-2-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="video-2-modal" tabindex="-1" aria-labelledby="video-1-modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-2" width="400" controls>
-                        <source src="assets/videos/csr/Video TamanEKOLOGI_Gerbang Lestari.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/TamanEKOLOGI_BioEnzyme_FIX_1.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -163,14 +226,14 @@
         </div>
     </div>
 
-    <div class="modal fade" id="video-3-modal" tabindex="-3" aria-labelledby="video-3-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="video-3-modal" tabindex="-1" aria-labelledby="video-1-modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-3" width="400" controls>
-                        <source src="assets/videos/csr/Video PETASAN FINAL.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/bio urin.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -185,7 +248,8 @@
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-4" width="400" controls>
-                        <source src="assets/videos/csr/product/TamanEKOLOGI_Kompos_FIX.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/PROFIL EKOWISATA SUKOREJO - KAMPUNG KOPI LIBERIKA.mp4"
+                            type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -193,14 +257,14 @@
         </div>
     </div>
 
-    <div class="modal fade" id="video-5-modal" tabindex="-5" aria-labelledby="video-5-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="video-5-modal" tabindex="-1" aria-labelledby="video-5-modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-5" width="400" controls>
-                        <source src="assets/videos/csr/product/TamanEKOLOGI_BioEnzyme_FIX_1.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/TEASER CSR PETROCHINA_1.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -208,14 +272,14 @@
         </div>
     </div>
 
-    <div class="modal fade" id="video-6-modal" tabindex="-6" aria-labelledby="video-6-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="video-6-modal" tabindex="-1" aria-labelledby="video-6-modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-6" width="400" controls>
-                        <source src="assets/videos/csr/product/bio urin.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/product/Video Batik Idola.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -223,7 +287,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="video-7-modal" tabindex="-7" aria-labelledby="video-7-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="video-7-modal" tabindex="-1" aria-labelledby="video-7-modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
@@ -245,7 +309,22 @@
                     <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
                         aria-label="Close">
                     <video class="video-8" width="400" controls>
-                        <source src="assets/videos/profile/Video Profile PetroChina.mp4" type="video/mp4">
+                        <source src="assets/videos/csr/Video TamanEKOLOGI_Gerbang Lestari.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="video-9-modal" tabindex="-9" aria-labelledby="video-9-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="btn-close-modal" src="assets/img/main/btn-modal-close.svg" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    <video class="video-9" width="400" controls>
+                        <source src="assets/videos/csr/Video PETASAN FINAL.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video>
                 </div>
@@ -256,8 +335,32 @@
 
 <script src="assets/js/jquery3.6.1.js"></script>
 <script async src="assets/js/bootstrap5.1/bootstrap.bundle.min.js"></script><!-- Swiper JS -->
+<script src="assets/js/swiper.js"></script>
 
 <script>
+    // Initialize Swiper
+    var swiper = new Swiper(".myCsrSlide", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        freeMode: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    // Initialize Swiper
+    var swiper = new Swiper(".myCsrArticleSlide", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
     var video1Modal = document.getElementById('video-1-modal')
     $(document).ready(function () {
         var video1 = $(".video-1").get(0);
@@ -367,6 +470,20 @@
         video8Modal.addEventListener('hidden.bs.modal', function (event) {
             video8.pause();
             video8.currentTime = 0;
+        })
+    });
+
+    var video9Modal = document.getElementById('video-9-modal')
+    $(document).ready(function () {
+        var video9 = $(".video-9").get(0);
+
+        $("#video-9").click(function () {
+            video9.play();
+        });
+
+        video9Modal.addEventListener('hidden.bs.modal', function (event) {
+            video9.pause();
+            video9.currentTime = 0;
         })
     });
 </script>

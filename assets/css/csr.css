@@ -69,30 +69,95 @@
   cursor: pointer;
 }
 
-#product {
-  margin-top: 0;
-  height: 700px;
+#gallery {
+  margin-top: 60px;
 }
 
-#product .csr-box {
-  height: 700px;
-  background-color: white;
-  -webkit-box-shadow: 3px 0px 15px rgba(188, 188, 188, 0.2);
-          box-shadow: 3px 0px 15px rgba(188, 188, 188, 0.2);
+#product .content, #gallery .content {
+  position: relative;
+  width: 100%;
 }
 
-#product .csr-box img.play-video {
-  left: 220px;
+#product .content img, #gallery .content img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#product .content .btn-2020,
+#product .content .btn-2019,
+#product .content .btn-2013,
+#product .content .btn-2008,
+#product .content .btn-2021,
+#product .content .btn-2022,
+#product .content .btn-2018, #gallery .content .btn-2020,
+#gallery .content .btn-2019,
+#gallery .content .btn-2013,
+#gallery .content .btn-2008,
+#gallery .content .btn-2021,
+#gallery .content .btn-2022,
+#gallery .content .btn-2018 {
+  position: absolute;
+  top: 355px;
+  left: 400px;
+  width: 200px;
+  height: 75px;
   cursor: pointer;
-  margin-top: -20px;
+  background-color: #86a82f;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
-#product .csr-box .title {
-  color: #40424A;
+#product .content .btn-2019, #gallery .content .btn-2019 {
+  top: 555px;
+  left: 115px;
+  width: 240px;
 }
 
-#product .csr-btn {
-  margin-top: 24px;
+#product .content .btn-2018, #gallery .content .btn-2018 {
+  top: 595px;
+  left: 460px;
+  width: 240px;
+}
+
+#product .content .btn-2013, #gallery .content .btn-2013 {
+  top: 605px;
+  left: 855px;
+  width: 240px;
+}
+
+#product .content .btn-2008, #gallery .content .btn-2008 {
+  top: 615px;
+  left: 1205px;
+  width: 300px;
+}
+
+#product .content .btn-2021, #gallery .content .btn-2021 {
+  top: 305px;
+  left: 955px;
+  width: 260px;
+}
+
+#product .content .btn-2022, #gallery .content .btn-2022 {
+  top: 260px;
+  left: 1325px;
+  width: 260px;
+}
+
+#product .content .btn-2020:hover,
+#product .content .btn-2018:hover,
+#product .content .btn-2013:hover,
+#product .content .btn-2008:hover,
+#product .content .btn-2021:hover,
+#product .content .btn-2022:hover,
+#product .content .btn-2019:hover, #gallery .content .btn-2020:hover,
+#gallery .content .btn-2018:hover,
+#gallery .content .btn-2013:hover,
+#gallery .content .btn-2008:hover,
+#gallery .content .btn-2021:hover,
+#gallery .content .btn-2022:hover,
+#gallery .content .btn-2019:hover {
+  opacity: 0;
 }
 
 #csr-milstone .content {
@@ -190,6 +255,12 @@
   width: 100%;
   height: 436px;
   border-radius: 10px;
+}
+
+.csr-box-slide img.play-video {
+  position: absolute;
+  left: 150px;
+  top: 170px;
 }
 
 .csr-box-slide .title {

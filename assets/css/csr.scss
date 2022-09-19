@@ -57,28 +57,83 @@
     }
 }
 
-#product {
-    margin-top: 0;
-    height: 700px;
+#gallery {
+    margin-top: 60px;
+}
 
-    .csr-box {
-        height: 700px;
-        background-color: white;
-        box-shadow: 3px 0px 15px rgba(188, 188, 188, 0.2);
+#product, #gallery {
+    .content {
+        position: relative;
+        width: 100%;
 
-        img.play-video {
-            left: 220px;
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .btn-2020,
+        .btn-2019,
+        .btn-2013,
+        .btn-2008,
+        .btn-2021,
+        .btn-2022,
+        .btn-2018 {
+            position: absolute;
+            top: 355px;
+            left: 400px;
+            width: 200px;
+            height: 75px;
             cursor: pointer;
-            margin-top: -20px;
+            background-color: #86a82f;
+            opacity: 0.2;
+            transition: opacity 0.5s;
         }
 
-        .title {
-            color: #40424A;
+        .btn-2019 {
+            top: 555px;
+            left: 115px;
+            width: 240px;
         }
-    }
 
-    .csr-btn {
-        margin-top: 24px;
+        .btn-2018 {
+            top: 595px;
+            left: 460px;
+            width: 240px;
+        }
+
+        .btn-2013 {
+            top: 605px;
+            left: 855px;
+            width: 240px;
+        }
+
+        .btn-2008 {
+            top: 615px;
+            left: 1205px;
+            width: 300px;
+        }
+
+        .btn-2021 {
+            top: 305px;
+            left: 955px;
+            width: 260px;
+        }
+
+        .btn-2022 {
+            top: 260px;
+            left: 1325px;
+            width: 260px;
+        }
+
+        .btn-2020:hover,
+        .btn-2018:hover,
+        .btn-2013:hover,
+        .btn-2008:hover,
+        .btn-2021:hover,
+        .btn-2022:hover,
+        .btn-2019:hover {
+            opacity: 0;
+        }
     }
 }
 
@@ -176,6 +231,12 @@
         width: 100%;
         height: 436px;
         border-radius: 10px;
+    }
+
+    img.play-video {
+        position: absolute;
+        left: 150px;
+        top: 170px;
     }
 
     .title {

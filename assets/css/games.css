@@ -26,6 +26,7 @@
 
 .games .games-box.iframe {
   height: 875px;
+  padding-top: 20px;
 }
 
 .games .games-box.red {
